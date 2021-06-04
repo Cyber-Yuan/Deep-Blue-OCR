@@ -8,9 +8,9 @@
       class="app-navbar-actions__item"
     />
     <language-dropdown class="app-navbar-actions__item"/>
-    <profile-dropdown class="app-navbar-actions__item app-navbar-actions__item--profile">
-      <span>{{userName}}</span>
-    </profile-dropdown>
+    <!--    <profile-dropdown class="app-navbar-actions__item app-navbar-actions__item&#45;&#45;profile">-->
+    <!--&lt;!&ndash;      <span>{{userName}}</span>&ndash;&gt;-->
+    <!--    </profile-dropdown>-->
   </div>
 </template>
 

@@ -12,7 +12,7 @@
               <va-button disabled> {{ $t('buttons.disabled') }}</va-button>
               <va-button outline> {{ $t('buttons.outline') }}</va-button>
               <va-button outline disabled> {{ $t('buttons.disabled') }}</va-button>
-              <va-button flat> {{ $t('buttons.flat') }}</va-button>
+              <va-button flat @click="clickme"> {{ $t('buttons.flat') }}</va-button>
               <va-button flat disabled> {{ $t('buttons.disabled') }}</va-button>
             </div>
           </div>
@@ -317,6 +317,13 @@ export default {
       model: 'three',
       activePage: 4,
     }
+  },
+  methods: {
+    clickme () {
+      console.log('hello')
+      this.$emit('clickme')
+    },
+
   },
 }
 </script>

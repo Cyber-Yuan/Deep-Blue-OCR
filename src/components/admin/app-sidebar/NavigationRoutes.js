@@ -21,11 +21,11 @@ export const navigationRoutes = {
       children: [
         {
           name: 'charts',
-          displayName: 'menu.charts',
+          displayName: '文本检测',
         },
         {
           name: 'progress-bars',
-          displayName: 'menu.progressBars',
+          displayName: '文字识别',
         },
       ],
     },
